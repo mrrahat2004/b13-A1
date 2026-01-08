@@ -17,7 +17,7 @@
 .container h1{
     margin: 0 auto;
     width: 770px;
-    max-width: 1140px;
+    max-width: 1360px;
     font-size: 60px;
 }
 
@@ -59,6 +59,7 @@ nav{
     height: 44px;
     background-color: #30b630;
     color: #FFFFFF;
+    padding-right: 24px;
 
 }
 
@@ -68,6 +69,73 @@ nav .menu{
     list-style-type: none;
 }
 
+.logo{
+  padding-left: 40px;
+}
 
+ul .li{
+    font-weight: bold;
+}
+
+.nav-btn{
+    padding-right: 120px;
+}
+
+#skills{
+    padding-top: 16px;
+    text-align: center;
+    padding-bottom: 24px;
+    border: 2px black;
+}
+
+#skills .skill-container{
+    width: 71%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+#skills .skill-heading{
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#skills .skill-heading h1{
+    font-size: 48px ;
+    color: #001931;
+}
+
+#skills .skill-heading p{
+    font-size: 16px;
+    color: #627382;
+}
+
+#skills .skill-container .skill-box{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-box .skill-card{
+    padding-top: 19px;
+    padding: 24px;
+    box-shadow: 0 6px 50px 0 #62738244;
+    max-width: 322px;
+}
+
+.skill-card img{
+    max-width: 60px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(252, 64, 64);
+    border-radius: 50%;
+}
+
+.skill-card h3{
+    font-size: 22px;
+}
+
+.skill-card p{
+    font-size: 16px;
+    color: #627382;
+}
 
 
