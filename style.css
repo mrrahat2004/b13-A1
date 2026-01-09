@@ -27,14 +27,24 @@
     color: #ffffff81;
 }
 
-.circle { 
-    width: 16px;
-    height: 16px;
-    background-color: #4caf4f63;
-    border-radius: 8px;
-    margin: 0 auto;
-    display: inline-block;
-} 
+.btn-2:hover{
+    background-color: rgb(96, 255, 189);
+    font-size: 14px;
+}
+.btn:hover{
+     background-color: rgb(110, 243, 214);
+    font-size: 16px;
+}
+
+/* .btn-1:hover{
+     background-color: 0 0 8px rgb(199, 243, 110);
+    font-size: 16px;
+} */
+.btn-3:hover{
+    background-color: 0 0 8px rgb(199, 243, 110);
+    font-size: 16px;
+}
+
 
 .btn{
     width: 251px;
@@ -43,6 +53,7 @@
     background-color: #30b630;
     border-radius: 5px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 
@@ -58,17 +69,26 @@ nav{
 
 
 .btn-2{
-    width: 156px;
+    width: auto;
     height: 44px;
     background-color: #30b630;
     color: #FFFFFF;
-    /* padding-right: 24px; */
     font-size: 14px;
     text-align: center;
     font-weight: bold;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 
+}
+.btn-1{
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn-4:hover{
+    background-color:0 0 8px 0 #849eb4;
 }
 
 nav .menu{
@@ -93,8 +113,8 @@ ul .li{
     padding-top: 16px;
     text-align: center;
     padding-bottom: 24px;
-    border: 2px black;
 }
+
 
 #skills .skill-container{
     width: 71%;
@@ -133,7 +153,7 @@ ul .li{
 .skill-card img{
     max-width: 60px;
     padding: 10px 10px 10px 10px;
-    background-color: rgb(252, 64, 64);
+    background-color: rgb(236, 72, 72);
     border-radius: 50%;
 }
 
@@ -175,6 +195,13 @@ ul .li{
     padding-bottom: 20px;
 }
 
+.contain .pra-2 i{
+
+    color: #30b630;
+    justify-content: space-between;
+
+}
+
 #challange-1{
     padding: 120px 120px 120px 120px;
 }
@@ -185,7 +212,6 @@ ul .li{
     background-color: #F7F6F2;
     align-items: center;
     margin: 0 auto;
-    /* padding-bottom: 120px; */
     padding-left: 40px;
     padding-right: 40px;
     max-width: 1100px;
@@ -197,20 +223,12 @@ ul .li{
 }
 
 .challange p{
-    /* width: 1380px;
-    height: 48px; */
     font-size: 16px;
 }
 
 
-/* .footer-container{
-    width: 71px;
-    max-width: 90px;
-    margin: 0 auto;
-    display: flex;
-} */
+
 .footer-container{
-    text-align: center;
     background-color: #001931;
     padding-top: 120px;
     max-width: 1600px;
@@ -218,9 +236,12 @@ ul .li{
     padding-bottom: 40px;
 }
 
-/* .divider{
-    color: #000000;
-} */
+.footer-container .foot{
+    display: flex;
+    justify-content: center;
+    gap: 940px;
+    list-style-type: none;
+}
 
 .bottom{
     text-align: center;
