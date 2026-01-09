@@ -145,6 +145,7 @@ ul .li{
     gap: 60px;
     max-width: 1220px;
     max-height: 397px;
+    padding-bottom: 200px;
 
 }
 
@@ -167,5 +168,44 @@ ul .li{
     padding-bottom: 20px;
 }
 
+#challange-1{
+    padding: 120px 120px 120px 120px;
+}
 
+.challange{
+    padding-top: 120px;
+    text-align: center;
+    background-color: #F7F6F2;
+    align-items: center;
+    margin: 0 auto;
+    /* padding-bottom: 120px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1100px;
+}
+
+.challange h1{
+    font-size: 40px;
+    color: #001931;
+}
+
+.challange p{
+    /* width: 1380px;
+    height: 48px; */
+    font-size: 16px;
+}
+
+.footer-container{
+    text-align: center;
+    /* display: flex; */
+    background-color: #001931;
+    padding-top: 120px;
+    max-width: 1600px;
+    justify-content: space-between;
+}
+
+
+/* .footer-container hr{
+    border: 1px solid rgb(0, 0, 0);
+} */
 
