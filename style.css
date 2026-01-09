@@ -40,10 +40,7 @@
      background-color: 0 0 8px rgb(199, 243, 110);
     font-size: 16px;
 }
-.btn-3:hover{
-    background-color: 0 0 8px rgb(199, 243, 110);
-    font-size: 16px;
-}
+
 
 
 .btn{
@@ -96,6 +93,10 @@ nav .menu{
 
 .logo{
   padding-left: 40px;
+}
+
+menu{
+    font-weight: bold;
 }
 
 ul .li{
