@@ -2,7 +2,7 @@
     padding-top: 120px;
     text-align: center;
     padding-bottom: 134px;
-    max-width: 2042px;
+    max-width: 1600px;
     max-height: 1363px;
 }
 
@@ -51,6 +51,7 @@ nav{
     gap: 32px;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 
@@ -116,8 +117,8 @@ ul .li{
 }
 
 .skill-box .skill-card{
-    padding-top: 19px;
-    padding: 24px;
+  
+    padding: 24px 24px 24px 24px;
     box-shadow: 0 6px 50px 0 #62738244;
     max-width: 322px;
 }
@@ -137,5 +138,34 @@ ul .li{
     font-size: 16px;
     color: #627382;
 }
+
+.contain{
+    padding: 120px 120px 120px 120px;
+    display: flex;
+    gap: 60px;
+    max-width: 1220px;
+    max-height: 397px;
+
+}
+
+.contain h3{
+    padding-top: 10px;
+    padding-bottom: 14px;
+    color: #30B868;
+}
+
+.contain h1{
+    font-size: 48px;
+    color: #001931;
+}
+
+
+.contain .pra-1{
+    color: #627382; 
+    font-size: 16px;
+    width: 491px;
+    padding-bottom: 20px;
+}
+
 
 
